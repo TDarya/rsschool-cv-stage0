@@ -1,5 +1,5 @@
-# **Darya Tyrkulets**
-# *Contacts*
+# **DARYA TURKULETS**  
+# *Contacts* 
 * ## mail: <darya.turkulets@gmail.com>
 * ## phone: +375339002650
 * ## rs school:  tdarya
