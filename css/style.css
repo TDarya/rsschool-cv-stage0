@@ -1,0 +1,177 @@
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    margin-left: 15px;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    color: #000;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    background: #d1cdcd;
+    font-family: Georgia;
+}
+
+body article>div{
+    display: inline-block;
+    position: relative;
+    padding: 0 15px;
+}
+
+body article>div::before{
+    display: block;
+    content: "";
+    position: absolute;
+    background: #654654;
+    height: 100%;
+    width: 3px;
+    left: 5px;
+}
+
+body article h2::after{
+    display: block;
+    position: absolute;
+    background: #000;
+    height: 2px;
+    width: 100%;
+    content: "";
+}
+
+header {
+    display: flex;
+    background: #654654;
+    padding: 10px;
+}
+
+header .image{
+    flex-basis: 30%;
+    text-align: center;
+}
+
+header .image img{
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+header .person{
+    flex-basis: 70%;
+    margin: auto;
+}
+
+header .person h1,
+header .person h2{
+    text-align: center;
+    display: block;
+}
+
+main {
+    display: flex;
+}
+
+main .main_left{
+    flex-basis: 35%;
+    background: #c9a8a8;
+}
+
+main .main_left .element_edu .name{
+    font-weight: bold;
+
+}
+
+nav.contacts ul{
+    list-style-type: none;
+}
+
+nav.contacts ul li{
+    margin: 10px 0px;
+}
+
+nav.contacts ul li.mail{
+    display: block;
+    position: relative;
+}
+
+nav.contacts ul li.phone{
+    display: block;
+    position: relative;
+}
+
+nav.contacts ul li.mail::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    left: -25px;
+    width: 20px;
+    height: 20px;
+    background: url(/images/maill.png);
+    background-size: 20px;
+}
+
+nav.contacts ul li.phone::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    left: -25px;
+    width: 20px;
+    height: 20px;
+    background: url(/images/phone.png);
+    background-size: 20px;
+}
+
+nav.contacts ul li a{
+    color: #000;
+}
+
+nav.contacts ul li.phone a{
+    text-decoration: none;
+}
+
+main .main_right{
+    flex-basis: 65%;
+    background: #916464;
+    padding-bottom: 10px;
+}
+
+main .main_right h3{
+    text-align: center;
+}
+
+.element_edu{
+    margin: 10px 0;
+}
+
+.element_edu div{
+    width: 100%;
+    margin: 5px 0;
+}
+
+.rsschool{
+     height: 20px;
+}
+
+footer{
+    background: #654654;
+    padding: 20px 0;
+}
+
+footer ul{
+    display: flex;
+    margin: 0;
+}
+
+footer ul li{
+    display: block;
+    flex-basis: 30%;
+}
