@@ -115,7 +115,7 @@ nav.contacts ul li.mail::before{
     left: -25px;
     width: 20px;
     height: 20px;
-    background: url(/images/maill.png);
+    background: url(../images/maill.png);
     background-size: 20px;
 }
 
@@ -126,7 +126,7 @@ nav.contacts ul li.phone::before{
     left: -25px;
     width: 20px;
     height: 20px;
-    background: url(/images/phone.png);
+    background: url(../images/phone.png);
     background-size: 20px;
 }
 
