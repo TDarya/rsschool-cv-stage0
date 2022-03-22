@@ -16,11 +16,10 @@
 ### - basic knowledge of the principles of OOP and the basics of programming;
 ### - basic knowledge of html, css.
 # *Sample code*
-```php
-<?php
-function multiply($a, $b) {
-   return $a * $b;
-}
+```  
+   <script>
+     alert( 'Привет, мир!' );
+   </script>
 ```
 # *Education*
 ## 1. Grodno State Polytechnic College
@@ -30,5 +29,5 @@ function multiply($a, $b) {
 ### Specialty: Economics and Enterprise Management
 ### Years of study: 2011-2016
 ***
-# *English: A2*
+# *English: B1*
 ## Working hard to level up
